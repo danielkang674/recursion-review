@@ -7,7 +7,6 @@
 var getElementsByClassName = function(className) {
   
   let doc = document.body;
-  console.log(doc);
   let targetClassArray = [];
 
   let checkChildren = function(childArray){
