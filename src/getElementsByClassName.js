@@ -17,7 +17,7 @@ var getElementsByClassName = function(className) {
 
     if(childArray.hasChildNodes()){
       for(var i = 0; i < childArray.children.length; i++){
-          checkChildren(childArray.children[i]);
+        checkChildren(childArray.children[i]);
       } 
     }
   };
